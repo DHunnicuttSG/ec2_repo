@@ -1,4 +1,4 @@
-or i in "$@"; do 
+for i in "$@"; do 
 if [[ "$i" =~ ^[0-9]+$ ]]; then 
 echo "Contains a number" 
 else 
