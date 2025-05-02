@@ -1,0 +1,2 @@
+add the digits of a number
+create of pyramid of numbers
