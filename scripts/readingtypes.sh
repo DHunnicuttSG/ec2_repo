@@ -7,6 +7,7 @@ read myString
 
 echo $myInt + $myFloat
 
-sum=$(echo "$myInt + $myFloat" | bc)
+# sum=$(echo "$myInt + $myFloat" | bc)
+sum=`echo $myInt + $myFloat | bc`
 
 echo $myString
