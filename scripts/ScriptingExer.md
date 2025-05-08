@@ -32,15 +32,15 @@ Write a script that takes a filename as an argument and prints the size of the f
 10. Simple Menu:
 Write a script that presents a menu with a few options (e.g., list files, show current directory, get file size, filter log file, exit). Based on the user's choice, execute the corresponding command. Use previous exercises as input.
 
-11. Advanced Level:
-Log Rotation Simulation:
+### Advanced Level:  
+
+11. Log Rotation Simulation:
 Write a script that simulates basic log rotation. It should take a log filename and a maximum size as arguments. If the log file exceeds the maximum size, it should rename the current log file (e.g., logfile.log to logfile.log.0), and create a new empty logfile.log.
 
 12. Processing CSV Data:
 Write a script that takes a CSV filename as input. Assume the first line is the header. Print the value of a specific column (take the column number as a command-line argument) for each row.
 
 13. System Information Gathering:
-
 Write a script that gathers and prints basic system information like hostname, operating system, kernel version, CPU information, and total/free memory.
 
 14. Automated Backup Script:
