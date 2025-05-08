@@ -4,7 +4,7 @@ add_nums() {
     echo "Enter two numbers: "
     read num1
     read num2
-    sum=$((num1 + num2))
+    sum=$(echo "$num1 + $num2" | bc)
     echo "Sum of $num1 and $num2 is $sum"
     echo
 }
@@ -13,7 +13,7 @@ sub_nums() {
     echo "Enter two numbers: "
     read num1
     read num2
-    diff=$((num1 - num2))
+    diff=$(echo "$num1 - num2" | bc)
     echo "Difference of $num1 and $num2 is $diff"
     echo
 }
@@ -22,7 +22,7 @@ mul_nums() {
     echo "Enter two numbers: "
     read num1
     read num2
-    prod=$((num1 * num2))
+    prod=$(echo "$num1 * num2" | bc)
     echo "Product of $num1 and $num2 is $prod"
     echo
 }
@@ -35,7 +35,7 @@ div_nums() {
         echo "Division by zero is not possible"
         echo
     else
-        div=$((num1 / num2))
+        div=$(echo "$num1 / $num2" | bc)
         echo "Division of $num1 by $num2 is $div"
         echo
     fi
